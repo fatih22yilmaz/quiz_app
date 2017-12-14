@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="com.example.fatihyilmaz.quizzapp.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/TextView"
+            android:text="1.\t\tWhat is the sum of 2 + 2?" />
+
+        <RadioGroup style="@style/RadioGroup">
+
+            <RadioButton
+                android:id="@+id/Q1_2"
+                style="@style/RadioButton"
+                android:text="2" />
+
+            <RadioButton
+                android:id="@+id/Q1_4"
+                style="@style/RadioButton"
+                android:text="4" />
+
+            <RadioButton
+                android:id="@+id/Q1_6"
+                style="@style/RadioButton"
+                android:text="6" />
+        </RadioGroup>
+
+        <View style="@style/LineView" />
+
+        <TextView
+            style="@style/TextView"
+            android:text="2.\t\tWhat is the first letter of the alphabet?" />
+
+        <RadioGroup style="@style/RadioGroup">
+
+            <RadioButton
+                android:id="@+id/Q2_A"
+                style="@style/RadioButton"
+                android:text="A" />
+
+            <RadioButton
+                android:id="@+id/Q2_B"
+                style="@style/RadioButton"
+                android:text="B" />
+
+            <RadioButton
+                android:id="@+id/Q2_C"
+                style="@style/RadioButton"
+                android:text="C" />
+        </RadioGroup>
+
+        <View style="@style/LineView" />
+
+        <TextView
+            style="@style/TextView"
+            android:text="3.\t\tAre you alive?" />
+
+        <RadioGroup style="@style/RadioGroup">
+
+            <RadioButton
+                android:id="@+id/Q3_yes"
+                style="@style/RadioButton"
+                android:text="Yes" />
+
+            <RadioButton
+                android:id="@+id/Q3_no"
+                style="@style/RadioButton"
+                android:text="No" />
+
+            <RadioButton
+                android:id="@+id/Q3_maybe"
+                style="@style/RadioButton"
+                android:text="Maybe" />
+        </RadioGroup>
+
+        <View style="@style/LineView" />
+
+        <TextView
+            style="@style/TextView"
+            android:text="4. \t\tWhat are you doing right now?" />
+
+        <RadioGroup style="@style/RadioGroup">
+
+            <RadioButton
+                android:id="@+id/Q4_eating"
+                style="@style/RadioButton"
+                android:text="Eating" />
+
+            <RadioButton
+                android:id="@+id/Q4_sleeping"
+                style="@style/RadioButton"
+                android:text="Sleeping" />
+
+            <RadioButton
+                android:id="@+id/Q4_takingFunQuiz"
+                style="@style/RadioButton"
+                android:text="Taking fun quiz" />
+        </RadioGroup>
+
+        <View style="@style/LineView" />
+
+        <TextView
+            style="@style/TextView"
+            android:text="5. \t\tIs this quis easy?" />
+
+        <RadioGroup style="@style/RadioGroup">
+
+            <RadioButton
+                android:id="@+id/Q5_yes"
+                style="@style/RadioButton"
+                android:text="Yes" />
+
+            <RadioButton
+                android:id="@+id/Q5_dontKnow"
+                style="@style/RadioButton"
+                android:text="I don't know" />
+
+            <RadioButton
+                android:id="@+id/Q5_no"
+                style="@style/RadioButton"
+                android:text="No" />
+        </RadioGroup>
+
+        <View style="@style/LineView" />
+
+        <TextView
+            style="@style/TextView"
+            android:text="6. \t\tWhat do you prefer(Multiple answers)?" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/Q6_eat"
+                style="@style/CheckBox"
+                android:text="Eat" />
+
+            <CheckBox
+                android:id="@+id/Q6_pray"
+                style="@style/CheckBox"
+                android:text="Pray" />
+
+            <CheckBox
+                android:id="@+id/Q6_love"
+                style="@style/CheckBox"
+                android:text="Love" />
+        </LinearLayout>
+
+        <View style="@style/LineView" />
+
+
+        <TextView
+            style="@style/TextView"
+            android:text="7. \t\tChoose all of the examples of or types of carbonhydrates(Multiple answers)?" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/Q7_galactose"
+                style="@style/CheckBox"
+                android:text="A. Galactose" />
+
+            <CheckBox
+                android:id="@+id/Q7_fructose"
+                style="@style/CheckBox"
+                android:text="B. Fructose" />
+
+            <CheckBox
+                android:id="@+id/Q7_surcrose"
+                style="@style/CheckBox"
+                android:text="C. Surcrose" />
+
+            <CheckBox
+                android:id="@+id/Q7_maltose"
+                style="@style/CheckBox"
+                android:text="D. Maltose" />
+        </LinearLayout>
+
+        <View style="@style/LineView" />
+
+        <TextView
+            style="@style/TextView"
+            android:text="8. \t\tWhat is your name?" />
+
+        <EditText
+            android:id="@+id/Q8_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <View style="@style/LineView" />
+
+        <TextView
+            style="@style/TextView"
+            android:text="9. \t\tHow old are you?" />
+
+        <EditText
+            android:id="@+id/Q9_age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <View style="@style/LineView" />
+
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="submitMethod"
+            android:text="Submit" />
+
+    </LinearLayout>
+
+</ScrollView>
