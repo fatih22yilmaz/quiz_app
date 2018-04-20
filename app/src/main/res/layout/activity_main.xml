@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -9,133 +8,133 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
 
         android:orientation="vertical">
 
         <TextView
             style="@style/TextView"
-            android:text="1.\t\tWhat is the sum of 2 + 2?" />
+            android:text="@string/what_is_the_sum_of_2_2" />
 
         <RadioGroup style="@style/RadioGroup">
 
             <RadioButton
                 android:id="@+id/Q1_2"
                 style="@style/RadioButton"
-                android:text="2" />
+                android:text="@string/_2" />
 
             <RadioButton
                 android:id="@+id/Q1_4"
                 style="@style/RadioButton"
-                android:text="4" />
+                android:text="@string/_4" />
 
             <RadioButton
                 android:id="@+id/Q1_6"
                 style="@style/RadioButton"
-                android:text="6" />
+                android:text="@string/_6" />
         </RadioGroup>
 
         <View style="@style/LineView" />
 
         <TextView
             style="@style/TextView"
-            android:text="2.\t\tWhat is the first letter of the alphabet?" />
+            android:text="@string/what_is_the_first_letter_of_the_alphabet" />
 
         <RadioGroup style="@style/RadioGroup">
 
             <RadioButton
                 android:id="@+id/Q2_A"
                 style="@style/RadioButton"
-                android:text="A" />
+                android:text="@string/a" />
 
             <RadioButton
                 android:id="@+id/Q2_B"
                 style="@style/RadioButton"
-                android:text="B" />
+                android:text="@string/b" />
 
             <RadioButton
                 android:id="@+id/Q2_C"
                 style="@style/RadioButton"
-                android:text="C" />
+                android:text="@string/c" />
         </RadioGroup>
 
         <View style="@style/LineView" />
 
         <TextView
             style="@style/TextView"
-            android:text="3.\t\tAre you alive?" />
+            android:text="@string/are_you_alive" />
 
         <RadioGroup style="@style/RadioGroup">
 
             <RadioButton
                 android:id="@+id/Q3_yes"
                 style="@style/RadioButton"
-                android:text="Yes" />
+                android:text="@string/yes" />
 
             <RadioButton
                 android:id="@+id/Q3_no"
                 style="@style/RadioButton"
-                android:text="No" />
+                android:text="@string/no" />
 
             <RadioButton
                 android:id="@+id/Q3_maybe"
                 style="@style/RadioButton"
-                android:text="Maybe" />
+                android:text="@string/maybe" />
         </RadioGroup>
 
         <View style="@style/LineView" />
 
         <TextView
             style="@style/TextView"
-            android:text="4. \t\tWhat are you doing right now?" />
+            android:text="@string/what_are_you_doing_right_now" />
 
         <RadioGroup style="@style/RadioGroup">
 
             <RadioButton
                 android:id="@+id/Q4_eating"
                 style="@style/RadioButton"
-                android:text="Eating" />
+                android:text="@string/eating" />
 
             <RadioButton
                 android:id="@+id/Q4_sleeping"
                 style="@style/RadioButton"
-                android:text="Sleeping" />
+                android:text="@string/sleeping" />
 
             <RadioButton
                 android:id="@+id/Q4_takingFunQuiz"
                 style="@style/RadioButton"
-                android:text="Taking fun quiz" />
+                android:text="@string/taking_fun_quiz" />
         </RadioGroup>
 
         <View style="@style/LineView" />
 
         <TextView
             style="@style/TextView"
-            android:text="5. \t\tIs this quis easy?" />
+            android:text="@string/is_this_quiz_easy" />
 
         <RadioGroup style="@style/RadioGroup">
 
             <RadioButton
                 android:id="@+id/Q5_yes"
                 style="@style/RadioButton"
-                android:text="Yes" />
+                android:text="@string/yes" />
 
             <RadioButton
                 android:id="@+id/Q5_dontKnow"
                 style="@style/RadioButton"
-                android:text="I don't know" />
+                android:text="@string/i_don_t_know" />
 
             <RadioButton
                 android:id="@+id/Q5_no"
                 style="@style/RadioButton"
-                android:text="No" />
+                android:text="@string/no" />
         </RadioGroup>
 
         <View style="@style/LineView" />
 
         <TextView
             style="@style/TextView"
-            android:text="6. \t\tWhat do you prefer(Multiple answers)?" />
+            android:text="@string/_6_which_is_not_essential_for_a_human_to_live" />
 
 
         <LinearLayout
@@ -146,17 +145,17 @@
             <CheckBox
                 android:id="@+id/Q6_eat"
                 style="@style/CheckBox"
-                android:text="Eat" />
+                android:text="@string/eat" />
 
             <CheckBox
-                android:id="@+id/Q6_pray"
+                android:id="@+id/Q6_talk"
                 style="@style/CheckBox"
-                android:text="Pray" />
+                android:text="@string/talk" />
 
             <CheckBox
-                android:id="@+id/Q6_love"
+                android:id="@+id/Q6_see"
                 style="@style/CheckBox"
-                android:text="Love" />
+                android:text="@string/see" />
         </LinearLayout>
 
         <View style="@style/LineView" />
@@ -164,7 +163,7 @@
 
         <TextView
             style="@style/TextView"
-            android:text="7. \t\tChoose all of the examples of or types of carbonhydrates(Multiple answers)?" />
+            android:text="@string/choose_all_of_the_examples_of_or_types_of_carbonhydrates_multiple_answers" />
 
 
         <LinearLayout
@@ -175,45 +174,48 @@
             <CheckBox
                 android:id="@+id/Q7_galactose"
                 style="@style/CheckBox"
-                android:text="A. Galactose" />
+                android:text="@string/a_galactose" />
 
             <CheckBox
                 android:id="@+id/Q7_fructose"
                 style="@style/CheckBox"
-                android:text="B. Fructose" />
+                android:text="@string/b_fructose" />
 
             <CheckBox
                 android:id="@+id/Q7_surcrose"
                 style="@style/CheckBox"
-                android:text="C. Surcrose" />
+                android:text="@string/c_surcrose" />
 
             <CheckBox
                 android:id="@+id/Q7_maltose"
                 style="@style/CheckBox"
-                android:text="D. Maltose" />
+                android:text="@string/d_maltose" />
         </LinearLayout>
 
         <View style="@style/LineView" />
 
         <TextView
             style="@style/TextView"
-            android:text="8. \t\tWhat is your name?" />
+            android:text="@string/what_is_the_name_of_great_turkish_leader" />
 
         <EditText
             android:id="@+id/Q8_name"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:hint="@string/mustafa_kemal" />
 
         <View style="@style/LineView" />
 
         <TextView
             style="@style/TextView"
-            android:text="9. \t\tHow old are you?" />
+            android:text="@string/when_mustafa_kemal_was_born_fill_the_blanks" />
+
 
         <EditText
             android:id="@+id/Q9_age"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:hint="@string/_18" />
 
         <View style="@style/LineView" />
 
@@ -223,7 +225,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:onClick="submitMethod"
-            android:text="Submit" />
+            android:text="@string/submit" />
 
     </LinearLayout>
 

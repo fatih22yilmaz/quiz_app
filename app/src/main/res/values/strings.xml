@@ -1,3 +1,36 @@
 <resources>
     <string name="app_name">QuizzApp</string>
+    <string name="submit">Submit</string>
+    <string name="how_old_are_you">9. How old are you?</string>
+    <string name="what_is_the_sum_of_2_2">1. What is the sum of 2 + 2?</string>
+    <string name="_2">2</string>
+    <string name="_4">4</string>
+    <string name="_6">6</string>
+    <string name="what_is_the_first_letter_of_the_alphabet">2. What is the first letter of the alphabet?</string>
+    <string name="a">A</string>
+    <string name="b">B</string>
+    <string name="c">C</string>
+    <string name="are_you_alive">3. Are you alive?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="maybe">Maybe</string>
+    <string name="what_are_you_doing_right_now">4. What are you doing right now?</string>
+    <string name="eating">Eating</string>
+    <string name="sleeping">Sleeping</string>
+    <string name="taking_fun_quiz">Taking fun quiz</string>
+    <string name="is_this_quiz_easy">5. Is this quiz easy?</string>
+    <string name="i_don_t_know">I don\'t know</string>
+    <string name="eat">Eat</string>
+    <string name="talk">Talk</string>
+    <string name="see">See</string>
+    <string name="choose_all_of_the_examples_of_or_types_of_carbonhydrates_multiple_answers">7. Choose all of the examples of or types of carbonhydrates(Multiple answers)?</string>
+    <string name="a_galactose">A. Galactose</string>
+    <string name="b_fructose">B. Fructose</string>
+    <string name="c_surcrose">C. Surcrose</string>
+    <string name="d_maltose">D. Maltose</string>
+    <string name="what_is_the_name_of_great_turkish_leader">8. What is the name of great Turkish Leader? (Fill the blanks.)?</string>
+    <string name="_6_which_is_not_essential_for_a_human_to_live">6. Which is not essential for a human to live?</string>
+    <string name="when_mustafa_kemal_was_born_fill_the_blanks">When Mustafa Kemal was born?(Fill the blanks)</string>
+    <string name="mustafa_kemal">Mustafa Kemal _______</string>
+    <string name="_18">18__</string>
 </resources>

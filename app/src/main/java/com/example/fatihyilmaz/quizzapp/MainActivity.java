@@ -12,7 +12,7 @@ import java.util.Objects;
 
 public class MainActivity extends AppCompatActivity {
 
-    public int testResult = 0;
+    private int testResult = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,8 +28,8 @@ public class MainActivity extends AppCompatActivity {
         RadioButton rb5 = findViewById(R.id.Q5_yes);
 
         CheckBox cb6a = findViewById(R.id.Q6_eat);
-        CheckBox cb6b = findViewById(R.id.Q6_pray);
-        CheckBox cb6c = findViewById(R.id.Q6_love);
+        CheckBox cb6b = findViewById(R.id.Q6_talk);
+        CheckBox cb6c = findViewById(R.id.Q6_see);
 
         CheckBox cb7a = findViewById(R.id.Q7_fructose);
         CheckBox cb7b = findViewById(R.id.Q7_galactose);
@@ -58,16 +58,14 @@ public class MainActivity extends AppCompatActivity {
             testResult += 5;
         }
 
-        if (cb6a.isChecked()) {
-            testResult += 5;
-        }
-
         if (cb6b.isChecked()) {
             testResult += 5;
         }
+
         if (cb6c.isChecked()) {
             testResult += 5;
         }
+
         if (cb7a.isChecked()) {
             testResult += 5;
         }
@@ -81,15 +79,20 @@ public class MainActivity extends AppCompatActivity {
             testResult += 5;
         }
 
-        if (!Objects.equals(et8.getText().toString(), "")) {
+        if (et8.getText().toString().toUpperCase().equals("ATATURK")) {
             testResult += 5;
         }
-        if (!Objects.equals(et9.getText().toString(), "")) {
+        if (et9.getText().toString().equals("81")) {
             testResult += 5;
         }
 
-        Toast.makeText(this, "Your final result is: " + testResult,
-                Toast.LENGTH_LONG).show();
+        if (testResult > 60) {
+            Toast.makeText(this, "Great job! Your answers was 100% correct.",
+                    Toast.LENGTH_LONG).show();
+        } else {
+            Toast.makeText(this, "You finished the test, you get " + testResult + " over 65 points.",
+                    Toast.LENGTH_LONG).show();
+        }
         testResult = 0;
     }
 }
